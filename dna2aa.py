@@ -84,6 +84,7 @@ def orf_length(AminoAcids, Start):
 			return Length_ORF
 		else:
 			Length_ORF += 1
+		return Length_ORF
 
 # Function returning the longest open reading frame in a given aminoacid sequence
 def longest_orf(AminoAcids):
